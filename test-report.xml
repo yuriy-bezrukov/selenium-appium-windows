@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Calculator.test.ts" errors="0" package="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Calculator.test.ts" hostname="localhost" tests="4" failures="3" time="48.63" timestamp="2021-02-03T01:29:47">
+    <properties>
+    </properties>
+    <testcase classname="Addition" name="Addition" time="0">
+    </testcase>
+    <testcase classname="Addition" name="Division" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10222ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Addition" name="Multiplication" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10022ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Addition" name="Subtraction" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10278ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\CalculatorWithPageObject.test.ts" errors="0" package="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\CalculatorWithPageObject.test.ts" hostname="localhost" tests="4" failures="3" time="46.361" timestamp="2021-02-03T01:30:42">
+    <properties>
+    </properties>
+    <testcase classname="Calulator Test" name="Addition" time="0">
+    </testcase>
+    <testcase classname="Calulator Test" name="Division" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10326ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Calulator Test" name="Multiplication" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10131ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Calulator Test" name="Subtraction" time="0">
+      <failure message="TimeoutError: Timeout in By2: By2(name, Clear, undefined)
+Wait timed out after 10298ms
+    at C:\Users\Bezrukov\Desktop\selenium-appium-master\example\node_modules\selenium-webdriver\lib\webdriver.js:890:17
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\By2.test.ts" errors="0" package="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\By2.test.ts" hostname="localhost" tests="3" failures="0" time="7.249" timestamp="2021-02-03T01:31:33">
+    <properties>
+    </properties>
+    <testcase classname="By2" name="By2 used in selenium-webdriver.WebDriver" time="0">
+    </testcase>
+    <testcase classname="By2" name="By2 Supports multiple webdriver2" time="0">
+    </testcase>
+    <testcase classname="By2" name="By2 deduced WebDriver2 for single WebDriver2" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Driver2.test.ts" errors="0" package="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Driver2.test.ts" hostname="localhost" tests="3" failures="0" time="6.015" timestamp="2021-02-03T01:31:40">
+    <properties>
+    </properties>
+    <testcase classname="driver" name="simple webdriver2, and driver create from WebDriver" time="0">
+    </testcase>
+    <testcase classname="driver" name="Multiple webdriver2" time="0">
+    </testcase>
+    <testcase classname="driver" name="Simple Webdriver2, and Driver create from capabilities" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Times.ts" errors="0" package="C:\Users\Bezrukov\Desktop\selenium-appium-master\example\__tests__\Times.ts" hostname="localhost" tests="1" failures="0" time="1.119" timestamp="2021-02-03T01:31:46">
+    <properties>
+    </properties>
+    <testcase classname="Timeout example" name="Timer testing" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
