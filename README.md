@@ -13,4 +13,4 @@
 
 4. run jest test
 
-`yarn run jest` or `npm run jest`
+`npm run jest`

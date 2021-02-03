@@ -1,8 +1,3 @@
-/**
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License.
- */
-
 import { By2, driver, WebDriver2 } from 'selenium-appium'
 import { Builder, until } from 'selenium-webdriver';
 import { capabilities } from '../Setup'
@@ -11,7 +6,8 @@ jest.setTimeout(50000);
 
 const url = 'http://localhost:4723'
 
-describe('By2', () => {
+xdescribe('By2', () => {
+
     test("By2 used in selenium-webdriver.WebDriver", async () => {
         const webdriver = await new Builder()
             .usingServer(url)
@@ -29,10 +25,10 @@ describe('By2', () => {
         await webdriver.quit();
     });
 
-
     test("By2 deduced WebDriver2 for single WebDriver2", async () => {
         await driver.startWithCapabilities(capabilities)
         await By2.nativeName('One').click();
         await driver.quit();
     });
+
 })
